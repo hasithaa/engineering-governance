@@ -749,3 +749,9 @@ dependencies:
       - version: ">=v0.32.0"
         allowed_scopes:
           - "*"
+
+  - module: github.com/andybalholm/brotli
+    versions:
+      - version: ">=v1.2.0"
+        allowed_scopes:
+          - api-platform
